@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Sign-up/TaySa</title>
+
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+	<link rel="stylesheet" href="css/jquery.nice-number.min.css">
+	<link rel="stylesheet" href="font/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body id="signup-page">
+
+
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="index.html">
+                <h3>TaySA</h3>
+                <!--            <img src="img/logo.png" alt="logo" class="img-fluid">-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="fields111">
+   	  					   	<a href=""><i class="flaticon-search"></i></a>
+                         <select>
+                             <option> Select  property</option>
+                             <option value="Bournemouth">Eastcliff Manor </option>
+                             <option value="Boscombe ">Victorian Duplex</option>  
+                          </select>
+                  </div>
+
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Reservations <span class="sr-only">(current)</span></a>
+                    </li>
+                 </ul>
+                
+
+                <!-- <div class="search-box">
+                    <a href="login.html"><button type="button">login</button></a>
+                </div> -->
+          
+
+                <div class="slidebar">
+                    <a  href="signup.html"><button type="button" data-toggle="modal" data-target="#exampleModal">Sign Up</button></a>
+                </div>
+
+            </div>
+    </nav>
+
+   
+
+
+   
+<!--  =====================banner  part start=================================-->
+ <section id="breadcumbs">
+  <div class="container"> 
+         <div class="row">  
+              <div class="col-lg-12 text-center"> 
+                  <div class="bread-text wow fadeInUp">  
+                        <h2>SignUp </h2>
+                        <h4><a href="index.html">Home</a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>SignUp </h4>
+                  </div>
+              </div>       
+         </div>
+  </div>
+ </section> 
+<!--  =====================banner  part end===================================-->
+
+
+<!-- ===========================login part start ==================================-->
+ <section id="login">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-5 col-md-8 m-auto">
+ 				<div class="login-item">
+ 					<div class="row mx-0 px-0">
+ 						  <div class="col-lg-12 login-link">
+ 							    <div class="login-fields">
+ 								        <a href="https://appleid.apple.com/account#!&page=create"><p><i class="fa fa-apple" aria-hidden="true"></i>sign up with apple</p></a>
+ 							     </div>
+ 						   </div>
+ 					    	<div class="col-lg-12 login-link">
+ 							      <div class="login-fields">
+ 								       <a href=" https://www.facebook.com/r.php"><p><i class="fa fa-facebook" aria-hidden="true"></i>sign up with facebook</p></a>
+ 							     </div>
+
+ 						    </div>
+ 						    <div class="col-lg-12 login-link">
+ 							      <div class="login-fields">
+ 								        <a href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp"><p><i class="fa fa-google" aria-hidden="true"></i>Sign up with Google</p></a>
+ 							     </div>
+ 					    	</div>
+ 					    	<div class="col-lg-12 login-link">
+ 							     <div class="login-fields">
+ 								       <a href="https://mobile.twitter.com/i/flow/signup"><p><i class="fa fa-twitter" aria-hidden="true"></i>Sign up with twitter</p></a>
+ 							     </div>
+ 						   </div>
+ 			   	</div>
+ 				</div>
+ 			</div>
+ 		</div>
+    <div class="row sign-top"> 
+      <div class="col-lg-5 col-md-8 m-auto">
+        <div class="signup-item">
+            
+            <div class="row mx-0 px-0">
+              <div class="col-lg-12">
+                  <div class="form">
+                   <h2>Account Information</h2>
+                    <form action="" method="post">
+                       <div class="field">
+                              <input type="text" placeholder="full-name" id ="full-name">
+                               <div class="error" id ="name-error"></div>
+                       </div>
+                       <div class="field">
+                             <input type="email" placeholder="email address" id ="email">
+                      </div>
+                       <div class="field">
+                            <input type="password" placeholder="password" id ="password">
+                            <div class="error" id ="password-error"></div>
+                       </div>
+                       <div class="field">
+                            <input type="password" placeholder="re-password" id ="rpassword">
+                            <div class="error" id ="rpassword-error"></div>
+                       </div>
+                       
+                       <div class="submit">
+                           <button type="submit" onclick="return sub()" > SignUp</button>
+                       </div>
+    
+                     </form>
+                </div>
+
+              </div>
+            </div>
+                 
+
+        </div>
+      </div>
+    </div>
+ 	</div>
+ </section>
+
+<!-- ===========================login part end ==================================-->
+
+
+
+ 
+  <!--================== contact part start=================================== -->
+    <section id="contact">
+        <div class="container">
+          
+
+            <div class="row part-top">
+             
+                <div class="col-lg-4 col-sm-4 col-md-4 pr-sm-0   last1">
+                    <div class="last-part">
+                        <p>Ⓒ 2020 taysa Inc. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4 con-1 text-center">
+                    
+                    <div class="contact-list">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-4 text-right">
+                  
+                    <div class="last-list">
+                        <ul>
+                            <li><a href="#">taysa0723@gamil.com</a></li>
+                            <li><a href="#">07400758746</a></li>
+                            
+                        </ul>
+                    </div>
+                     
+
+                </div>
+
+                 
+            </div>
+        </div>
+    </section>
+    <!--================== contact part end=================================== -->
+	 
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/popper.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script src="js/jquery.nice-number.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

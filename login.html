@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>log In/Taysa</title>
+
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+	<link rel="stylesheet" href="css/jquery.nice-number.min.css">
+	<link rel="stylesheet" href="font/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body id="login-page">
+
+
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="index.html">
+                <h3>TaySA</h3>
+                <!--            <img src="img/logo.png" alt="logo" class="img-fluid">-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                 <div class="fields111">
+   	  						<a href=""><i class="flaticon-search"></i></a>
+                              <select>
+                                 <option> Select  property</option>
+                                 <option value="Bournemouth">Eastcliff Manor </option>
+                                 <option value="Boscombe ">Victorian Duplex</option>
+                                 
+                            </select>
+     
+	
+                    </div>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Reservations <span class="sr-only">(current)</span></a>
+                    </li>
+
+
+                </ul>
+                
+
+                <div class="search-box">
+                   <a href="login.html"> <button type="button">login</button></a>
+                </div>
+             
+
+                <div class="slidebar">
+                    <a href="signup.html"><button type="button" data-toggle="modal" data-target="#exampleModal">Sign Up</button></a>
+                                 
+                </div>
+
+
+
+
+            </div>
+    </nav>
+
+  
+
+
+
+
+   
+<!--  =====================banner  part start=================================-->
+ <section id="breadcumbs">
+  <div class="container"> 
+         <div class="row">  
+              <div class="col-lg-12 text-center"> 
+                  <div class="bread-text wow fadeInUp">  
+                        <h2>Login </h2>
+                        <h4><a href="index.html">Home</a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Login </h4>
+                  </div>
+              </div>       
+         </div>
+  </div>
+ </section> 
+<!--  =====================banner  part end===================================-->
+
+
+<!-- ===========================login part start ==================================-->
+ <section id="login">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-5 col-md-7 m-auto">
+ 				<div class="login-item">
+ 					<div class="row mx-0 px-0">
+ 						<div class="col-lg-12 login-link">
+ 							
+ 							  <div class="login-fields">
+ 								 <a href="https://appleid.apple.com/#!&page=signin"><p><i class="fa fa-apple" aria-hidden="true"></i>log in with apple</p></a>
+ 							  </div>
+
+ 						</div>
+ 						<div class="col-lg-12 login-link">
+ 							
+ 							  <div class="login-fields">
+ 								 <a href="https://touch.facebook.com/"><p><i class="fa fa-facebook" aria-hidden="true"></i>log in with facebook</p></a>
+ 							  </div>
+
+ 						</div>
+ 						<div class="col-lg-12 login-link">
+ 							
+ 							  <div class="login-fields">
+ 								 <a href="https://accounts.google.com/signin/oauth/oauthchooseaccount?access_type=offline&client_id=251389452057-7r2jd4lepo74pecf4962btehlkdqcpvc.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.sonder.com%2Faccounts%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=profile%20email&state=d563d5bf04cd45eab1264300c4e91bc01ce2a96873303b23&o2v=1&as=pzGCCgCE4XbTNOLdqbNMww&flowName=GeneralOAuthFlow"><p><i class="fa fa-google" aria-hidden="true"></i>log in with Google</p></a>
+ 							  </div>
+
+ 						</div>
+ 						<div class="col-lg-12 login-link">
+ 							
+ 							  <div class="login-fields">
+ 								 <a href="https://twitter.com/login"><p><i class="fa fa-twitter" aria-hidden="true"></i>log in with twitter</p></a>
+ 							  </div>
+
+ 						</div>
+
+ 					</div>
+ 					<div class="row login-top mx-0 px-0">
+ 						<div class="col-lg-12  m-auto  col-md-12 wow slideInLeft" data-wow-delay=".5s">
+                        <!-- <div class="service-header test-header">
+                            <h3><i class="fa fa-home"></i> Register Here </h3>
+                        </div> -->
+                        <form action="" method="post">
+                            <div class="row form-top forms-top">
+                                 <div class="login-text">
+                                 	<h3>login here</h3>
+                                 </div>
+                                 
+                                <div class="col-lg-12 col-md-12 ">
+                                    <div class="field fields">
+
+                                        <input type="email" placeholder=" Enter Your Email" id="email">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="field fields">
+
+                                        <input type="password" placeholder=" password" id="phone">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-btn forms1-btn">
+                                        <button type="submit" onclick="return sub()">Login</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+
+<!-- ===========================login part end ==================================-->
+
+
+
+
+    <!--================== contact part start=================================== -->
+      <section id="contact">
+      	<div class="container">
+      		
+      		<div class="row">
+      			<div class="col-lg-12">
+      				<div class="contact-header">
+      					<h3>Taysa</h3>
+      				</div>
+      			</div>
+      			<div class="col-lg-2 col-sm-3 con-1">
+      				<div class="contact-head">
+      					<h3>Company</h3>
+      				</div>
+      				<div class="contact-list">
+      					<ul>
+      						<li><a href="">about us</a></li>
+      						<li><a href="">Blog</a></li>
+      						<li><a href="">careers</a></li>
+      						<li><a href="">Contact</a></li>
+      						<li><a href="">leasing</a></li>
+      						
+      					</ul>
+      				</div>
+      			</div>
+      			<div class="col-lg-2 col-sm-3 con-1">
+      				<div class="contact-head">
+      					<h3>Support</h3>
+      				</div>
+      				<div class="contact-list">
+      					<ul>
+      						<li><a href="">Help Center</a></li>
+      						
+      					</ul>
+      				</div>
+      			</div>
+      			<div class="col-lg-2 col-sm-3 con-1">
+      				<div class="contact-head">
+      					<h3>Social</h3>
+      				</div>
+      				<div class="contact-list">
+      					<a href=""><i class="fa fa-facebook"></i></a>
+      					<a href=""><i class="fa fa-instagram"></i></a>
+      					<a href=""><i class="fa fa-twitter"></i></a>
+      				</div>
+      			</div>
+      			<div class="col-lg-5 col-sm-3 con-1">
+      				<div class="contact-head">
+      					<h3>language</h3>
+
+      				</div>
+      				<div class="contact-lan">
+
+      					<div class="dropdown">
+      						<a href="#">English</a>
+      						<i class="fa fa-caret-down"></i>
+      						
+      					</div>
+      					<div class="submenu">
+      							<div class="menu1"><a href="#">French</a></div>
+      							<div class="menu1"><a href="#">Italy</a></div>
+      							
+      						</div>
+      				</div>
+      				
+
+      				
+      			</div>
+      		</div>
+      		<div class="row part-top">
+      			<div class="col-lg-4 col-sm-4 pr-sm-0 last1">
+      				<div class="last-part">
+      					<p>Ⓒ 2020 taysa Inc. All rights reserved.</p>
+      				</div>
+      			</div>
+      			<div class="col-lg-8 col-sm-8 text-right">
+      				<div class="last-list">
+      					<ul>
+      						<li><a href="#">+1 545-895-4475</a></li>
+      						<li><a href="#">Terms of service</a></li>
+      						<li><a href="#">privacy policy</a></li>
+      					</ul>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </section>
+    <!--================== contact part end=================================== -->
+ 
+
+
+
+	 
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="js/jquery.nice-number.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

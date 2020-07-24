@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TaySa</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+    <link rel="stylesheet" href="css/jquery.nice-number.min.css">
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body id="home-page">
+
+<!--=======================navbar part start==============================-->
+   
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">
+            <h3>TaySA</h3>
+            <!--            <img src="img/logo.png" alt="logo" class="img-fluid">-->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="fields111">
+                <a href=""><i class="flaticon-search"></i></a>
+                <select>
+                    <option> Select property</option>
+                    <option value="Bournemouth">Eastcliff Manor </option>
+                    <option value="Boscombe ">Victorian Duplex</option>
+
+                </select>
+            </div>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Reservations <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+            <!-- <div class="search-box">
+                    <a href="login.html"><button type="button">login</button></a>
+
+                </div> -->
+
+
+            <div class="slidebar">
+                <a href="signup.html"><button type="button" data-toggle="modal" data-target="#exampleModal">Sign Up</button></a>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- =======================banner part start ==============================-->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-10  pl-lg-0 banner-left">
+                    <div class="banner-text">
+                        <h1> Serviced Accomodation</h1>
+                        <p>Operating in the best locations</p>
+
+                    </div>
+                    <div class="banner-btns">
+
+                        <div class="fields1">
+                            <a href=""><i class="flaticon-search"></i></a>
+                            <select>
+                                <option> Select property</option>
+                                <option value="Bournemouth">Eastcliff Manor </option>
+                                <option value="Boscombe ">Victorian Duplex</option>
+
+                            </select>
+
+
+                        </div>
+                        <div class="fields1">
+                            <i class="flaticon-calendar"></i>
+                            <input type="text" name="datefilter" value="" placeholder="CheckIn--CheckOut" />
+                        </div>
+                        <div class="fields11">
+                            <i class="flaticon-users"></i>
+                            <span>guests</span>
+                            <div class="spinner">
+                                <input type="number" value="1" min="1" id="spinner">
+                            </div>
+
+                        </div>
+                        <div class="bnr-button">
+                            <a href="#">Boscombe</a>
+                            <a href="#">East cliff</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="banner-img">
+                    <img src="image/banner.jpg" alt="img" class="img-fluid">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--================== banner part end======================== -->
+
+    <!--================== country  part start======================== -->
+    <section id="country">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="country-text">
+                        <h3>Our properties</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row count-top">
+                <div class="col-lg-6 col-md-6 col-sm-12 c-top">
+                    <a href="city2.html">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c1.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Eastcliff Manor </h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 c-top">
+                    <a href="city1.html">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c2.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Burlington Mansions</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+               <!--  <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c3.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Dellas</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c4.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Atlanta</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c5.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>England</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c6.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>England</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c7.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Dubai</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c8.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>chicago</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c9.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Boston</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c10.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>Austin</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c1.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>london</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 c-top">
+                    <a href="">
+                        <div class="count-item">
+                            <div class="count-img">
+                                <img src="image/c2.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="c-overlay">
+                                <div class="count-text">
+                                    <h3>syhlet</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+             <!--    <div class="col-lg-12 text-center">
+                    <div class="c-btn">
+                        <a href="">view more cities</a>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <!--================== country part end========================== -->
+
+
+
+    <!--================== service part start========================== -->
+    <section id="service">
+        <div class="container">
+           <!--  <div class="row">
+                <div class="col-lg-5">
+                    <div class="country-text">
+                        <h3>Why Taysa?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim et veniam aperiam impedit, necessitatibus.</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row serv-top">
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="image/service1.jpg" alt="service-img" class="img-fluid">
+                        </div>
+                        <div class="service-text">
+                            <h2>Spaces designed for living</h2>
+                            <p>Each Sonder is ideal for both working and relaxing. Our spaces have high-speed WiFi, artisan coffee, and everyday amenities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="image/service2.jpg" alt="service-img" class="img-fluid">
+                        </div>
+                        <div class="service-text">
+                            <h2>Professionally cleaned</h2>
+                            <p>Our staff maintains the highest standards of cleanliness. We thoroughly clean and disinfect each Sonder between every stay.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="image/service3.jpg" alt="service-img" class="img-fluid">
+                        </div>
+                        <div class="service-text">
+                            <h2>Self check-in & contactless service</h2>
+                            <p>We offer self check-in and 24/7 guest support via our app. Whenever possible, we resolve guest requests with contact-free service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== service part end============================ -->
+
+
+
+    <!--================== work part start============================ -->
+    <section id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="country-text">
+                        <h3>TaySa Amenities</h3>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row work-top">
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work2.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Professionally cleaned</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work5.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Comfortable bedding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work6.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Fully-equipped kitchen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work3.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Fast WiFi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work4.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Shower amenities</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row ">
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work7.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Fresh Towels</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work1.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Contactless check-in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work9.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>Artisian coffee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work8.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>In-suite laundry</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-top1">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="image/work10.jpg" alt="work-img" class="img-fluid">
+                        </div>
+                        <div class="work-text">
+                            <p>24/7 Support</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!--================== work part end================================= -->
+
+
+
+
+    <!--================== feedback part start============================== -->
+
+  <!--   <section id="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="feedback-header">
+                        <h3>What people say</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row test-slider">
+                <div class="col-lg-8 m-auto testi-hover">
+                    <div class="test-item">
+                        <div class="test-text">
+                            <h2>It was so chic and in the best location for our short visit. What an Amazing experience-to leave home and still feel at home</h2>
+                            <div class="test-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 test-list test-detail">
+                            <ul class="test-detail">
+                                <li class="test-img">
+                                    <img src="image/test1.jpg" alt="tst-img" class="img-fluid">
+                                </li>
+                                <li class=testimonial-text>
+                                    <h4>lana smith</h4>
+                                    <p>@lanacoffe</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 m-auto testi-hover">
+                    <div class="test-item">
+                        <div class="test-text">
+                            <h2>10/10 would recommend, excellent location and Easy checkin/Out. It was the best place i ever stay. Greet feelings</h2>
+                            <div class="test-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 test-list test-detail">
+                            <ul class="test-detail">
+                                <li class="test-img">
+                                    <img src="image/test2.jpg" alt="tst-img" class="img-fluid">
+                                </li>
+                                <li class=testimonial-text>
+                                    <h4>kepy sandrow</h4>
+                                    <p>@kepysandrow</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 m-auto testi-hover">
+                    <div class="test-item">
+                        <div class="test-text">
+                            <h2>One of the best locations for enjoy vacations.I enjoyed so much here.Much more appreciated & recommended</h2>
+                            <div class="test-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 test-list test-detail">
+                            <ul class="test-detail">
+                                <li class="test-img">
+                                    <img src="image/test1.jpg" alt="tst-img" class="img-fluid">
+                                </li>
+                                <li class=testimonial-text>
+                                    <h4>Mark taylor</h4>
+                                    <p>@taylorproperty</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section> -->
+
+    <!--================== feedback part end================================ -->
+
+
+    
+    <!--================== booking part start=================================== -->
+    <section id="book">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                	<div class="book-img">
+                        <img src="image/book.jpg" alt="" class="img-fluid">
+                	</div>
+                   
+                </div>
+                <div class="col-lg-5">
+                    <div class="booking-text">
+                        <h1>Book with peace of mind</h1>
+                        <p>Committing to future travel can be tough right now. To ease your planning, we’re providing a <span>flexible cancellation policy</span> on all bookings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================== booking part end=================================== -->
+    
+
+    <!--  =====================back-top  part start=============================-->
+
+    <a href="#" class="back-top">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+    <!--  =====================back-top  part end================================-->
+
+
+
+
+  <!--================== contact part start=================================== -->
+    <section id="contact">
+        <div class="container">
+         
+            <div class="row part-top">
+             
+                <div class="col-lg-4 col-sm-4 col-md-4 pr-sm-0   last1">
+                    <div class="last-part">
+                        <p>Ⓒ 2020 taysa Inc. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4 con-1 text-center">
+                    
+                    <div class="contact-list">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-4 text-right">
+                  
+                    <div class="last-list">
+                        <ul>
+                            <li><a href="#">taysa0723@gamil.com</a></li>
+                            <li><a href="#">07400758746</a></li>
+                            
+                        </ul>
+                    </div>
+                     
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!--================== contact part end=================================== -->
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="js/jquery.nice-number.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

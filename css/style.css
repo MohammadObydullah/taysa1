@@ -1,0 +1,1713 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+@font-face {
+    src: url(fonts/MillerDisplayRoman.ttf);
+    font-family: Miller;
+    font-style: normal;
+
+}
+
+/*===============basic css part end===============================*/
+
+
+/*=====================menu part start========================*/
+.navbar {
+    padding: 0 30px;
+    line-height: 60px;
+    width: 100%;
+    top: 0;
+    z-index: 11111;
+    background: #fff;
+    border-bottom: 1px solid #ecdeded1;
+}
+
+.bg {
+    background: #fff;
+    box-shadow: 0 2px 2px #ddd;
+    animation: nav 0.5s;
+}
+
+@keyframes nav {
+    from {
+        top: -50px;
+
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-brand h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #073937;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+
+}
+
+.fields111 {
+    display: none;
+}
+
+.bg .fields111 {
+    display: block;
+}
+
+.fields111 select {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+    width: 93%;
+    height: 100%;
+    border: none;
+    -webkit-appearance: none;
+    padding-left: 50px;
+    cursor: pointer
+}
+
+/*.fields111 select option {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #073937;
+	text-transform: capitalize;
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding-left: 50px;
+	text-indent: 1px;
+	-webkit-appearance: none;
+	background: #f9f8f8cc;
+}*/
+.fields111 {
+    width: 35%;
+    border-radius: 30px;
+    border: 1px solid #777;
+    position: relative;
+    z-index: 11;
+    overflow: hidden;
+
+    margin-left: 25%;
+    line-height: 50px;
+}
+
+.fields111 i {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    color: #666;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #073937;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #fdc236;
+}
+
+/*.navbar-light .navbar-nav .nav-link {
+	padding-bottom: 20px;
+}
+*/
+
+
+.navbar .search {
+    line-height: 100px;
+}
+
+.navs-item i {
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.search-overlay {
+    position: absolute;
+    top: -52%;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 11111;
+}
+
+.search-btn {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.search-btn input {
+    width: 500px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.search-btn button {
+    width: 80px;
+    height: 58px;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+    background: #fdc236;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    cursor: pointer;
+}
+
+.search-btn button:focus {
+    outline: 0;
+}
+
+.search-box button {
+    width: 90px;
+    height: 35px;
+    line-height: 34px;
+    text-align: center;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: #073937;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #073937;
+    border-radius: 20px;
+
+}
+
+.search-box button i {
+    color: #fff;
+}
+
+.search-box button i:hover {
+    color: #222;
+}
+
+.search-box {
+    padding-left: 30px;
+}
+
+.search-box button:focus {
+    outline: 0;
+}
+
+.search-box button:hover {
+    color: #fdc236;
+}
+
+.search-btn button i {
+    color: #fff;
+}
+
+/*
+.cancel-btn {
+    position: absolute;
+    right: 7px;
+    top: -3%;
+    height: 40px;
+    z-index: 1111;
+}
+
+.cancel-btn button {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.cancel-btn button:focus {
+    outline: 0;
+}
+
+.cancel-btn:hover i {
+    color: #fdc236;
+}
+
+.cancel-btn i {
+    color: #222;
+    font-size: 18px;
+}
+*/
+
+.slidebar {
+    padding-left: 15px;
+}
+
+.slidebar i {
+    cursor: pointer;
+}
+
+.slidebar i:hover {
+    color: #fdc236;
+}
+
+.slidebar button {
+    width: 90px;
+    height: 35px;
+    line-height: 34px;
+    text-align: center;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: #073937;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid#073937;
+    border-radius: 20px;
+
+}
+
+.slidebar button:hover {
+    color: #fdc236;
+}
+
+.slidebar button:focus {
+    outline: 0;
+}
+
+.login-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #073937;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-bottom: 19px;
+}
+
+
+
+
+/*==================modal part start======================*/
+
+
+/*.inner-field input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+    outline:none;
+}
+
+.inner-field {
+    padding-bottom: 10px
+}
+
+.inner-field textarea {
+    width: 100%;
+    height: 160px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.forms-btn button {
+    padding: 15px 30px;
+    border: 0;
+    background: #4189de;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    border: 1px solid #4189de;
+    outline:none;
+
+}
+
+.forms-btn {
+    text-align: right;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-header h5 {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+*/
+
+/*=====================form part start======================*/
+
+.form-top {
+    padding-top: 53px;
+}
+
+.test-header h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #073937;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+
+}
+
+.test-header h3::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+    background: #073937;
+}
+
+.field {
+    padding-bottom: 25px;
+}
+
+.field p {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.field input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #666;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid #bba9a9;
+    background: #fff;
+    outline: none;
+    border-radius: 10px;
+}
+
+.field input:focus {
+    border: 2px solid #1a8585;
+    ;
+}
+
+.field select:focus {
+    border: 2px solid #1a8585;
+}
+
+.field textarea:focus {
+    border: 2px solid #1a8585;
+}
+
+.test-header i {
+    color: #073937;
+}
+
+.field select {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-family: 'lato', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: #fff;
+}
+
+.field textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: 'lato', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form-btn button {
+    padding: 12px 30px;
+    background: #073937;
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: all linear 0.2s;
+    cursor: pointer;
+    border: 1px solid #073937;
+    outline: none;
+}
+
+.form-btn button:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    transition: all linear 0.2s;
+    z-index: -1;
+}
+
+.form-btn {
+    padding-top: 18px;
+    /* margin-bottom: 15px; */
+}
+
+.form-btn button:hover {
+    color: #222;
+}
+
+.form-btn button:focus {
+    outline: 0;
+}
+
+.form-btn button:hover:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.fields {
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+.forms1-btn button {
+    width: 120px;
+    height: 45px;
+    line-height: 9px;
+}
+
+.forms-top {
+    background: #fff;
+    margin-top: 90px;
+    padding: 37px;
+    border-radius: 15px;
+}
+
+
+
+
+/*=====================banner part start====================*/
+
+#banner {
+    padding-top: 54px;
+    padding-bottom: 93px;
+}
+
+.banner-text h1 {
+    font-family: 'Arbutus Slab', serif;
+    font-weight: 500;
+    font-size: 75px;
+    color: #073937;
+    text-transform: capitalize;
+    line-height: 1.2;
+    padding-bottom: 5px;
+}
+
+.banner-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+}
+
+.banner-img img {
+    height: 100%;
+}
+
+.banner-img {
+    position: absolute;
+    top: 77px;
+    width: 50%;
+    height: 667px;
+    right: 0;
+}
+
+/*.banner-right  {
+	position: absolute;
+	top: 0;
+	width: 730px;
+	right: 0;
+	height: 587px;
+}*/
+
+
+.fields1 {
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #777;
+    position: relative;
+    z-index: 111;
+    overflow: hidden;
+
+}
+
+.fields1 i {
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    color: #666;
+}
+
+.fields1 select {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 50px;
+    overflow: hidden;
+    text-indent: 1px;
+    -webkit-appearance: none;
+    background: #f9f8f8cc;
+    cursor: pointer;
+}
+
+.fields1 {
+    margin-bottom: 15px;
+}
+
+.fields1 input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 50px;
+    overflow: hidden;
+    outline: none;
+    background: #f9f8f8cc;
+
+}
+
+.fields1 input::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+}
+
+.fields11 #spinner {
+    width: 100px !important;
+    border: none;
+    background: none;
+}
+
+.fields11 button {
+    width: 30px;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    background: none;
+}
+
+.fields11 button:hover {
+    background: #ddd;
+}
+
+.fields11 {
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #777;
+    background: #f9f8f8cc;
+    position: relative;
+}
+
+.fields11 i {
+
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    color: #666;
+
+}
+
+.fields11 span {
+    position: absolute;
+    left: 11%;
+    top: 29%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+}
+
+.fields11 .spinner {
+    position: absolute;
+    right: 10%;
+    top: 17%;
+}
+
+.bnr-button {
+    padding-top: 50px;
+}
+
+.bnr-button a {
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #073937;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+/*====================country part start=======================*/
+
+#country {
+    padding-top: 72px;
+    padding-bottom: 95px;
+    background: #f9f8f8cc;
+}
+
+.country-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #073937;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.country-text p {
+    font-family: 'lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+}
+
+.count-item {
+    position: relative;
+
+}
+
+.count-item:hover .c-overlay {
+    background: rgb(0, 0, 0, 0.45);
+}
+
+.c-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.25);
+}
+
+.count-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.count-text h3 {
+	font-family: 'lato', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.count-top {
+    padding-top: 35px;
+}
+#home-page .c-top {
+	padding-bottom: 15px;
+	
+}
+/*#city1-page .c-top {
+    padding-bottom: 15px;
+    padding-right: 9px;
+    padding-left: 9px;
+}*/
+
+.count-img img {
+    transition: all linear 0.2s;
+    height:415px;
+}
+
+
+.count-item:hover .count-img img {
+    transform: scale(1.1);
+}
+
+.count-item {
+    overflow: hidden;
+}
+
+.c-btn {
+    padding-top: 29px;
+}
+
+.c-btn a {
+    padding: 20px 25px;
+    border-radius: 50px;
+    background: #e6b022;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #073937;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+}
+
+.c-btn a:hover {
+    background: #e6b022;
+    opacity: 0.9;
+    color: #073937;
+}
+
+/*====================country part end=======================*/
+
+
+
+
+/*====================service part start=======================*/
+#service {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.service-img img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.15);
+}
+
+.service-img img {
+	height: 400px;
+	width: 100%;
+	transition: all linear 0.2s;
+	position: relative;
+}
+
+.serv-top {
+    padding-top: 38px;
+}
+
+.service-text h2 {
+    font-family: 'Arbutus Slab', serif;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 50px;
+    color: #073937;
+    text-transform: capitalize;
+}
+
+.service-text p {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #073937;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding-top: 18px;
+}
+
+.service-text {
+    padding-top: 30px;
+
+}
+
+.service-item:hover .service-img img {
+    transform: scale(1.1);
+}
+
+.service-item:hover .service-img img {
+    transform: scale(1.1);
+}
+
+
+.service-img {
+    overflow: hidden;
+}
+
+/*====================service part end=========================*/
+
+
+
+/*====================work part start=========================*/
+#work {
+    padding-top: 60px;
+    padding-bottom: 75px;
+    background: #f9f8f8cc;
+
+}
+
+.work-top {
+    padding-top: 21px;
+    padding-bottom: 35px;
+}
+.work-top1{
+	padding-left:9px;
+	padding-right: 9px;
+}
+.works-img img{
+	height:235px;
+}
+.work-text p {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #073937;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding-top: 8px;
+}
+
+.work-text {
+    text-align: center;
+}
+
+.work-img {
+    position: relative;
+}
+
+.work-img:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.15);
+}
+
+.work-item:hover .work-img:before {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/*====================work part end===========================*/
+
+
+
+/*====================feedback part start===========================*/
+
+#feedback {
+    padding-top: 80px;
+    padding-bottom: 130px;
+    background: #073937;
+}
+
+.feedback-header h3 {
+    font-family: 'Arbutus Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+
+
+}
+
+
+.test-slider {
+    margin-top: 55px;
+}
+
+.test-item {
+    padding-top: 30px;
+}
+
+.test-text {
+    /* padding: 47px 30px 35px 30px; */
+    background: #fff;
+    position: relative;
+    padding: 30px;
+}
+
+.test-text::before {
+    position: absolute;
+    content: '';
+    left: 60px;
+    bottom: -28px;
+    width: 43px;
+    height: 40px;
+    background: #fff;
+    clip-path: polygon(0 0, 72% 89%, 67% 0);
+}
+
+.test-icon {
+    position: absolute;
+    top: -25px;
+    left: 19px;
+}
+
+.test-icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    background: #fdc236;
+    color: #fff;
+}
+
+.test-text h2 {
+    font-family: 'Arbutus Slab', serif;
+    color: #073937;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 33px;
+}
+
+.test-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 35px;
+    margin-left: 79px;
+}
+
+.testimonial-text h4 {
+    padding-top: 55px;
+    color: #fdc236;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.testimonial-text p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+    padding-top: 4px;
+}
+
+.test-list ul li {
+    display: inline-block;
+}
+
+.testimonial-text {
+    position: absolute;
+    top: 0;
+    padding-left: 15px;
+}
+
+.test-slider .slick-dots li {
+    width: 13px;
+    height: 13px;
+    background: none;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 13px;
+    border-radius: 50%;
+}
+
+.test-slider .slick-dots li button {
+    color: transparent;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    border: 0;
+    opacity: 0;
+    transition: all linear .3s;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test-slider .slick-dots li button:focus {
+    outline: none;
+}
+
+.test-slider .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -70px;
+
+    transform: translateX(-50%);
+}
+
+.test-slider .slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+/*====================feedback part end===========================*/
+
+/*====================partner part start===========================*/
+/*#partner{
+	padding-top:56px;
+	padding-bottom:56px; 
+}
+ .client-img h1 {
+	font-family: 'Arbutus Slab', serif;
+	font-weight: 900;
+	font-size: 60px;
+	color: #073937;
+	text-transform: capitalize;
+	line-height: 59px;
+	letter-spacing: -3px;
+}
+.client-img h2 {
+	font-family: 'Arbutus Slab', serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #073937;
+	text-transform: uppercase;
+	letter-spacing: -4px;
+	line-height: 45px;
+	padding-top: 11px;
+}
+.client-img p{
+    font-family: 'Roboto', serif;
+	font-weight: 400;
+	font-size: 13px;
+	color:rgba(28,28,28,.5);
+	text-transform: capitalize;
+	text-align: center;
+}
+.client-img span{
+	 font-family: 'Arbutus Slab', serif;
+	font-weight: 900;
+	font-size: 36px;
+	color:#073937;
+	text-transform: uppercase;
+}		*/
+/*====================partner part end===========================*/
+
+
+/*====================booking part start===========================*/
+#book {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #fff;
+
+}
+.book-img img{
+	height:450px;
+}
+.booking-text h1 {
+    font-family: 'Arbutus Slab', serif;
+    font-weight: 500;
+    font-size: 51px;
+    color: #073937;
+    text-transform: capitalize;
+}
+
+.booking-text p {
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #073937;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.booking-text span {
+    font-weight: 600;
+}
+
+.booking-text {
+	padding-left: 30px;
+	margin-top: 115px;
+}
+
+/*====================booking part end===========================*/
+
+
+
+/*====================contact part start===========================*/
+#contact {
+	padding-top: 30px;
+	padding-bottom: 13px;
+	background: #073937;
+}
+
+/*.contact-text h1{
+	font-family: 'Arbutus Slab', serif;
+	font-weight: 400;
+	font-size: 60px;
+	color:#fff;
+	text-transform: capitalize;
+	padding-bottom: 25px;
+}
+.contact-text p{
+	font-family: 'lato', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#fff;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+}
+.contact-text h5{
+	font-family: 'Roboto', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color:#fff;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.contact-text span{
+	font-weight: 600;
+	color:#fff;
+}
+.subscribe input{
+	width: 70%;
+	height: 55px;
+	padding-left: 30px;
+	border-radius: 50px;
+	border: 0;
+	position: relative;
+
+}
+.subscribe{
+	padding-top:30px; 
+}
+.subscribe button {
+	width: 150px;
+	height: 55px;
+	border-radius: 50px;
+	border: 0;
+	position: absolute;
+	right: 124px;
+	background: #ddd;
+	color: #fff;
+	font-family: 'Arbutus Slab', serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #0c5342;
+	cursor: pointer;
+	border:1px solid #ddd;
+}
+.subscribe i{
+	padding-right: 7px;
+	font-size:14px;
+}
+.subscribe button:focus{
+	outline: 0;
+
+}
+.subscribe button:hover{
+	background:#ddd;
+}*/
+.contact-header {
+    padding-bottom: 53px;
+}
+
+.contact-header h3 {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-head h3 {
+    font-family: 'lato', serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fffbf2a6;
+    text-transform: uppercase;
+}
+
+.contact-list ul li a {
+    font-family: 'lato', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.contact-list ul li a:hover {
+    color: #fdc236;
+}
+
+.contact-list ul li {
+    padding-bottom: 7px;
+}
+
+.contact-list {
+	padding-bottom: 0;
+}
+
+.contact-list a {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.contact-list i:hover {
+    color: #fdc236;
+}
+
+.last-part p {
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fffbf2a6;
+    text-transform: capitalize;
+}
+
+.part-top {
+    padding-top: 0;
+}
+
+.last-list ul li {
+    display: inline-block;
+}
+
+.last-list ul li a {
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fffbf2a6;
+    
+    margin-left: 15px;
+}
+
+.contact-lan {
+    padding-top: 30px;
+    position: relative;
+    width: 127px;
+
+
+}
+
+.contact-lan .dropdown {
+    position: relative;
+}
+
+.contact-lan .dropdown i {
+    position: absolute;
+    right: -10px;
+    top: 6px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.contact-lan .dropdown a {
+    padding: 15px 89px 15px 15px;
+    border: 1px solid #fff;
+    /* background: #fff; */
+    border-radius: 10px;
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.contact-lan:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    top: 68px;
+}
+
+.contact-lan .submenu {
+
+    width: 150px;
+
+    background: #fff;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.contact-lan .submenu a {
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.menu1 {
+    padding: 5px 0;
+}
+
+.menu1:hover {
+    background: #ddd;
+}
+
+/*====================contact part start===========================*/
+
+
+
+
+/*=============================back-top part start     ==============================*/
+.back-top i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #b98d0b;
+    font-size: 18px;
+    color: #fff;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+    display: none;
+
+}
+
+
+/*=============================back-top part end     ==============================*/
+
+
+/*=============================login page part start     ==============================*/
+
+
+/*=====================breadcumb  part start========================================*/
+
+#breadcumbs {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+
+}
+
+
+.bread-text h2 {
+    color: #073937;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 14px;
+}
+
+.bread-text h4 {
+    color: #fdc236;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bread-text a {
+    color: #073937;
+    text-decoration: none;
+}
+
+.bread-text a:hover {
+    color: #fdc236;
+}
+
+.bread-text i {
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+
+
+/*=============================login page part start     ==============================*/
+
+#login {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f9f8f8cc;
+}
+
+.login-item {
+    border: 1px solid #073937;
+    padding: 30px 15px 30px 15px;
+}
+
+.login-fields {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #073937;
+    cursor: pointer;
+    line-height: 50px;
+
+}
+
+.login-link {
+    padding-bottom: 10px;
+}
+
+.login-fields a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #073937;
+    text-decoration: none;
+
+}
+
+.login-fields p {
+    padding-left: 15px;
+}
+
+.login-fields i {
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.login-fields:hover {
+    background: #ddd;
+}
+
+#login-page .forms-top {
+    background: none;
+    margin-top: 0px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+#login-page .fields {
+    padding-bottom: 12px;
+}
+
+.login-top {
+    padding-top: 30px;
+}
+
+#login-page .contact-header {
+    padding-top: 0;
+    padding-bottom: 53px;
+}
+
+
+
+/*====================signup page part start=======================*/
+
+.signup-item {
+    border: 1px solid #073937;
+    padding: 30px 15px 30px 15px;
+}
+
+.sign-top {
+    padding-top: 30px;
+}
+
+.sign-header {
+    padding-bottom: 30px;
+}
+
+.sign-header h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #073937;
+}
+
+.sign-field input {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #073937;
+}
+
+.sign-field {
+    padding-bottom: 15px;
+}
+
+#signup-page .contact-header {
+    padding-top: 0;
+    padding-bottom: 53px;
+}
+
+
+
+
+#signup-page .form h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+
+#signup-page .field {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+#signup-page .field input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #073937;
+
+
+}
+
+#signup-page .submit {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#signup-page .submit button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #073937;
+    background: #073937;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+#signup-page .error {
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+
+}
+
+/*======================city1 page start========================================*/
+.work-item{
+	margin-bottom: 30px;
+}
+#city1-page #work {
+	padding-top: 60px;
+	padding-bottom: 25px;
+}

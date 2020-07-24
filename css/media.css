@@ -1,0 +1,611 @@
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+/*======================large device part start======================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.banner-text h1 {
+	
+	font-size: 65px;
+}
+#banner {
+	padding-bottom: 107px;
+}
+.banner-img {
+	height: 659px;
+}
+.client-img h2 {
+   font-size: 41px;
+}
+.client-img h1 {
+	font-size: 55px;
+}
+.booking-text {
+	padding-left: 30px;
+	margin-top: 83px;
+}
+.booking-text h1 {
+	
+	font-size: 47px;
+	
+}
+
+
+
+ }
+
+
+
+
+
+
+/*==================medium device part start=================*/
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*=================navbar part start====================*/
+ .navbar {
+	padding: 20px;
+}
+.search-box {
+	padding-left:15px;
+}
+.nav-link {
+	line-height: 16px;
+	padding-top: 21px;
+}
+
+.navbar {
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.search-box button {
+	color: #fff;
+	border: 1px solid #fff;
+
+}
+.slidebar button {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.navbar-collapse {
+	background: #073937;
+	margin-top: 30px;
+	padding-bottom: 25px;
+}
+.bg .fields111 {
+	display: none;
+}
+.forms-top {
+	margin-top: 200px;
+	padding: 8px;
+	border-radius: 15px;
+	padding-top: 34px;
+}
+.modal-dialog {
+	margin: 38% auto;
+	max-width: 600px;
+}
+.login-form{
+	width:500px;
+}
+.form-btn {
+	padding-bottom: 15px;
+}
+.modal-body{
+	padding:30px;
+}
+
+/*===============banner part start==================*/
+.banner-img img {
+	height: 100%;
+	width: 100%;
+}
+.banner-img {
+	width: 100%;
+	height: 450px;
+}
+.banner-text {
+	padding-top: 415px;
+}
+.banner-text h1 {
+	font-weight: 500;
+	font-size: 70px;
+}
+#banner {
+	padding-bottom: 57px;
+}
+.banner-text p {
+	padding-bottom: 35px;
+}
+
+/*============country part start===============*/
+
+.count-text h3 {
+	font-weight: 500;
+	font-size: 22px;
+	width: 300px;
+	text-align: center;
+}
+
+
+/*=================service part start=====================*/
+ .service-text h2 {
+	font-size: 55px;
+	line-height: 80px;
+
+}
+.service-text {
+	padding-bottom: 40px;
+}
+#service {
+	padding-top: 70px;
+	padding-bottom: 34px;
+}
+.work-top1{
+	padding-left:7px;
+	padding-right: 7px;
+}
+
+/*=======================feedbeek part start====================*/
+#feedback {
+	padding-top: 70px;
+	padding-bottom: 120px;
+}
+.test-slider {
+	margin-top: 45px;
+}
+.client-img h2 {
+	padding-top: 40px;
+}
+.client-img {
+	text-align:center;
+}
+
+/*======================booking part start==================*/
+
+.booking-text {
+	padding-left: 0;
+	margin-top: 45px;
+}
+#book {
+	padding-top: 80px;
+	padding-bottom: 74px;
+
+}
+/*===================contact part start====================*/
+.contact-text h1 {
+	font-size: 55px;
+}
+.subscribe button {
+	right: 12%;
+}
+
+
+
+}
+
+
+
+
+
+/*====================small device part start=======================*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ 
+/*=================navbar part start====================*/
+ .navbar {
+	padding: 20px;
+}
+.search-box {
+	padding-left:15px;
+}
+.nav-link {
+	line-height: 16px;
+	padding-top: 21px;
+}
+
+.navbar {
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.search-box button {
+	color: #fff;
+	border: 1px solid #fff;
+
+}
+.slidebar button {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.navbar-collapse {
+	background: #073937;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.bg .fields111 {
+	display: none;
+}
+.forms-top {
+	margin-top: 200px;
+	padding: 8px;
+	border-radius: 15px;
+	padding-top: 34px;
+}
+.modal-dialog {
+	margin: 55% auto;
+	max-width: 557px;
+}
+.login-form{
+	width:300px;
+}
+.form-btn {
+	padding-bottom: 15px;
+}
+
+
+/*===============banner part start==================*/
+.banner-img img {
+	height: 100%;
+	width: 100%;
+}
+.banner-img {
+	width: 100%;
+	height: 370px;
+}
+.banner-text {
+	padding-top: 348px;
+}
+.banner-text h1 {
+	font-weight: 500;
+	font-size: 60px;
+}
+#banner {
+	padding-bottom: 57px;
+}
+.banner-text p {
+	padding-bottom: 35px;
+}
+
+/*===================country part start================*/
+
+.c-top{
+	width:50%;
+}
+.count-text h3 {
+	font-size: 20px;	
+}
+
+/*================service part start===============*/
+.service-img img {
+	height: 400px;
+}
+.service-item {
+	padding-bottom: 30px;
+}
+.service-text h2 {
+	font-size: 40px;
+}
+
+
+/*=========================work part start========================*/
+
+.work-item{
+	width:100%;
+}
+.work-top1{
+	padding-bottom:30px; 
+}
+.work-top {
+	padding-top: 21px;
+	padding-bottom: 0;
+}
+.col {
+	
+	flex-basis:auto;
+	max-width: 50%;
+	
+}
+.col {
+	
+	width:50%;
+	
+}
+
+ /*=======================partner part start===========================*/
+
+.client-img{
+	text-align: center;
+}
+.client-img h2 {
+	padding-top: 40px;
+}
+
+
+
+/*================booking part start===================*/
+.booking-text {
+	padding-left: 0px;
+	margin-top: 39px;
+}
+
+/*.===============contact part start=================*/
+
+.subscribe button {
+	width: 140px;
+	right: 7%;
+	font-size: 16px;
+}
+.subscribe input {
+	width: 90%;
+}
+#contact {
+	padding-right: 20px;
+}
+.contact-lan .dropdown i {
+	right: 0px;
+}
+.contact-lan .dropdown a {
+	padding: 15px 79px 15px 15px;
+}
+.contact-lan .submenu {
+	width: 140px;
+}
+.last-list ul li a {
+	margin-left: 14px;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+/*=====================Xstra small devie part start=======================*/
+
+@media (max-width: 575.98px) {
+
+
+ /*=========menu part start===============*/
+ .navbar {
+	padding: 20px;
+}
+.search-box {
+	padding-left:15px;
+}
+.nav-link {
+	line-height: 16px;
+	padding-top: 21px;
+}
+
+.navbar {
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.search-box button {
+	color: #fff;
+	border: 1px solid #fff;
+
+}
+.slidebar button {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.navbar-collapse {
+	background: #073937;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.bg .fields111 {
+	display: none;
+}
+.forms-top {
+	
+	margin-top: 200px;
+	padding: 24px;
+	border-radius: 15px;
+}
+.modal-dialog {
+	margin: 91% auto;
+   max-width: 557px;
+
+}
+
+/*===============banner part start==================*/
+.banner-img img {
+	height: 100%;
+	width: 100%;
+}
+.banner-img {
+	width: 100%;
+	height: 300px;
+}
+.banner-text {
+	padding-top: 280px;
+}
+.banner-text h1 {
+	font-weight: 500;
+	font-size: 42px;
+}
+#banner {
+	padding-bottom: 70px;
+}
+
+/*===================country part start===================*/
+#country {
+	padding-top: 44px;
+	padding-bottom: 65px;
+	background: #f9f8f8cc;
+}
+/*================service part start===============*/
+.service-img img {
+	height: 360px;
+}
+.service-item {
+	padding-bottom: 30px;
+}
+#service {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+/*=========================work part start========================*/
+#work {
+	padding-top: 60px;
+	padding-bottom: 37px;
+}
+.work-item {
+	width: 100%;
+}
+.work-top1{
+	padding-bottom:30px; 
+}
+.work-top {
+	padding-top: 21px;
+	padding-bottom: 0;
+}
+.col {
+	
+	flex-basis: max-content;
+	
+}
+
+/*=================feedback part start========================*/
+.test-slider {
+	margin-top: 48px;
+}
+
+#feedback {
+	padding-top: 62px;
+	padding-bottom: 117px;
+}
+.test-slider .slick-dots {
+	bottom: -58px;
+}
+
+/*======================partner part start==========================*/
+.client-img h1 {
+	font-size: 50px;
+}
+.client-img h2 {
+	font-size: 38px;
+}
+.client-img {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.client-img span {
+	font-size: 30px;
+}
+/*=====================booking part start======================*/
+.booking-text {
+	margin-top: 41px;
+	padding-left: 15px;
+}
+.booking-text h1 {
+	font-size: 45px;
+}
+#book {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/*===================contact part start====================*/
+.contact-text h1 {
+	font-size: 45px;
+}
+
+.subscribe button {
+	width: 108px;
+	right: 4%;
+	font-size: 13px;
+
+}
+.subscribe input {
+	width: 98%;
+	padding-left: 24px;
+	
+}
+.con-1 {
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.contact-lan .dropdown i {
+	right: 3px;
+	
+}
+.last1{
+	width: 100%;
+	text-align: center;
+}
+.text-right {
+	text-align: center !important;
+}
+.last-list ul li a {
+	font-size: 14px;
+	margin: 0 4px;
+}
+.contact-header {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.contact-lan .submenu {
+	width: 144px;
+}
+
+.contact-lan .dropdown a {
+	padding: 15px 78px 15px 15px;
+	
+}
+#contact {
+	padding-top: 55px;
+	padding-bottom: 30px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+}
+@media (min-width: 400px) and (max-width: 575px) { 
+
+
+.count-text h3 {
+	font-size: 20px;	
+}
+.col {
+	max-width: 50%;
+}
+
+
+
+}
